@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title>Zimbra</title>
+  <defs>
+    <linearGradient id="zimbraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e53935"/>
+      <stop offset="100%" stop-color="#d81b60"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="url(#zimbraGrad)" />
+  <path d="M18 20h28l-18 24h18v8H18l18-24H18z" fill="#ffffff" />
+</svg>

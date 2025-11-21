@@ -1,0 +1,55 @@
+/**
+ * Provider Forms Styling
+ *
+ * Common styles for all provider forms
+ */
+
+/* Password field wrappers */
+.api-key-wrapper,
+.secret-wrapper,
+.smtp-pw-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+/* Input styling within wrappers */
+.api-key-wrapper input,
+.secret-wrapper input,
+.smtp-pw-wrapper input {
+    padding-right: 30px !important;
+    width: 28.5em !important;
+    max-width: 100% !important;
+}
+
+/* Dashicon visibility toggle */
+.api-key-wrapper .dashicons,
+.secret-wrapper .dashicons,
+.smtp-pw-wrapper .dashicons {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #a8a7a8;
+}
+
+.api-key-wrapper .dashicons:hover,
+.secret-wrapper .dashicons:hover,
+.smtp-pw-wrapper .dashicons:hover {
+    color: #a8a7a8;
+}
+
+/* Submit wrapper spacing */
+.submit-wrapper {
+    margin-top: 20px;
+}
+
+/* Description text styling */
+.wizard-step .description {
+    margin-bottom: 15px;
+}
+
+/* Form table spacing */
+.wizard-step .form-table {
+    margin-top: 15px;
+}

@@ -1,0 +1,90 @@
+.settings-section {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.settings-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.disabled-field {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Danger zone section styling */
+.settings-section.danger-zone {
+    border-color: #dc3232;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 0;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.modal-header h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-actions {
+    padding: 15px 20px;
+    border-top: 1px solid #e5e5e5;
+    text-align: right;
+}
+
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button-danger {
+    background: #dc3232 !important;
+    border-color: #a02222 !important;
+    color: #fff !important;
+}
+
+.button-danger:hover {
+    background: #a02222 !important;
+}
+
+.confirmation-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+}
