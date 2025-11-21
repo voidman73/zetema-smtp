@@ -6,7 +6,7 @@ return [
         'name'  => 'turbosmtp',
         'class' => 'TurboSMTP',
         'description' => 'TurboSMTP is a reliable and secure SMTP service that guarantees the delivery of your emails.',
-        'recommended' => true,
+        'recommended' => false,
     ],
     'mailgun' => [
         'label' => 'Mailgun',
@@ -76,7 +76,7 @@ return [
         'name'  => 'zimbra',
         'class' => 'Zimbra',
         'description' => 'Zimbra is a collaboration suite that supports SMTP sending. Configure your mailbox SMTP details here.',
-        'recommended' => false,
+        'recommended' => true,
     ]
     // 'amazonses' => [
     //     'label' => 'AmazonSES',
