@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Zetema SMTP
  * Description: Enhance email deliverability by connecting WordPress to SMTP providers with automatic failover, proactive alerts, advanced analytics, and intelligent routing.
- * Version: 1.6.2
- * Author: turbosmtp
- * Author URI:        https://www.serversmtp.com
- * Text Domain: pro-mail-smtp
+ * Version: 1.6.3
+ * Author: voidman
+ * Author URI:        https://www.voidman.com
+ * Text Domain: zetema-mail-smtp
  * Domain Path: /languages
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('PRO_MAIL_SMTP_VERSION', '1.6.1');
+define('PRO_MAIL_SMTP_VERSION', '1.6.3');
 define('PRO_MAIL_SMTP_FILE', __FILE__);
 define('PRO_MAIL_SMTP_PATH', plugin_dir_path(__FILE__));
 define('PRO_MAIL_SMTP_URL', plugin_dir_url(__FILE__));

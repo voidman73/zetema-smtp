@@ -18,7 +18,7 @@
 }
 
 .plugin-header h1 span {
-  color: #ff6e79;
+  color: #1d4ed8;
 }
 
 .description {
@@ -46,12 +46,12 @@
 }
 
 .pro-mail-smtp-nav-tab:hover {
-  color: #ff6e79;
+  color: #1d4ed8;
 }
 
 .pro-mail-smtp-nav-tab-active {
-  color: #ff6e79;
-  border-bottom: 2px solid #ff6e79;
+  color: #1d4ed8;
+  border-bottom: 2px solid #1d4ed8;
 }
 
 .pro-mail-smtp-nav-tab-active:hover {
@@ -66,23 +66,23 @@
 .button.delete-condition,
 .button.back-step {
   padding: 4px 12px;
-  border: 1px solid #ff6e79;
+  border: 1px solid #1d4ed8;
   background: transparent;
   border-radius: 4px;
   cursor: pointer;
-  color: #ff6e79;
+  color: #1d4ed8;
   font-size: 13px;
   margin-right: 5px;
 }
 
 .button.edit-provider {
-  border-color: #ff6e79;
-  color: #ff6e79;
+  border-color: #1d4ed8;
+  color: #1d4ed8;
 }
 
 .button.test-provider {
-  border-color: #ff6e79;
-  color: #ff6e79;
+  border-color: #1d4ed8;
+  color: #1d4ed8;
 }
 
 .button.delete-provider {
@@ -104,7 +104,7 @@
   align-items: center;
   gap: 6px;
   padding: 6px 12px;
-  background: #ff6e79;
+  background: #1d4ed8;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -130,7 +130,7 @@
   text-decoration: none;
   float: right;
   top: -12px;
-  background: #ff5252;
+  background: #1740b0;
   color: #fff;
 }
 
@@ -255,7 +255,7 @@ strong {
 }
 
 .provider-card:hover {
-  border-color: #ff6e79;
+  border-color: #1d4ed8;
   background-color: #fff8f8;
 }
 
@@ -301,7 +301,7 @@ input[type="email"] {
 
 /* Save Settings Button */
 .save-settings {
-  background: #ff6e79 !important;
+  background: #1d4ed8 !important;
   border: none;
   color: #fff;
   padding: 8px 16px;
@@ -311,7 +311,7 @@ input[type="email"] {
 
 /* .button-primary:hover, */
 .save-settings:hover {
-  background: #ff5252;
+  background: #1740b0;
   color: #fff;
 }
 
@@ -321,7 +321,7 @@ input[type="email"] {
   align-items: center;
   gap: 6px;
   padding: 6px 12px;
-  background: #ff6e79 !important;
+  background: #1d4ed8 !important;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -331,7 +331,7 @@ input[type="email"] {
 
 .button-primary:hover.save-provider:hover,
 .button-primary.save-condition:hover {
-  background: #ff5252 !important;
+  background: #1740b0 !important;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ input[type="email"] {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: #ff6e79 !important;
+  background: #1d4ed8 !important;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -465,7 +465,7 @@ input[type="email"] {
 
 /* Import Button Animation */
 #import {
-  background: linear-gradient(45deg, #ff6e79, rgb(248, 156, 163));
+  background: linear-gradient(45deg, #1d4ed8, rgb(91, 155, 255));
   border: none;
   color: black;
   animation: gradientGlow 3s ease-in-out infinite alternate;
@@ -576,14 +576,14 @@ input[type="email"] {
 }
 
 .provider-card.recommended {
-  border: 1px solid #ff6e79;
+  border: 1px solid #1d4ed8;
 }
 
 .ribbon-recommended {
   position: absolute;
   top: 22px;
   right: -33px;
-  background: #ff6e79;
+  background: #1d4ed8;
   color: white;
   font-size: 9px;
   font-weight: bold;
@@ -659,7 +659,7 @@ input[type="email"] {
     gap: 4px;
 }
 .connections-current {
-    color: #ff6e79;
+    color: #1d4ed8;
     font-size: 1.3em;
     font-weight: bold;
 }

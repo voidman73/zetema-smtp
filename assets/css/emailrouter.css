@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 :root {
-    --main: #ff5252;
+    --main: #1740b0;
     --blue-main: #4285f4;
     --green-main: #0B8494;
     --red-main: #dc3545;
@@ -250,10 +250,10 @@ select, input {
 /* Add Condition Button */
 .add-btn {
     background: #fff;
-    color: #ff6e79;
+    color: #1d4ed8;
     padding: 8px 16px;
     border-radius: 4px;
-    border: 1px solid #ff6e79;
+    border: 1px solid #1d4ed8;
     cursor: pointer;
     font-size: 14px;
     margin-top: 16px;
@@ -490,11 +490,11 @@ input:checked + .toggle-slider:before {
 }
 
 .btn-primary.save-condition {
-    background: #ff6e79 !important;
+    background: #1d4ed8 !important;
     color: #fff;
 }
 
 .btn-primary.save-condition:hover{
-  background: #ff5252 !important;
+  background: #1740b0 !important;
   color: #fff;
 }

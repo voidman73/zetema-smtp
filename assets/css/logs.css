@@ -2,7 +2,7 @@
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: #ff6e79 !important;
+    background: #1d4ed8 !important;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -49,7 +49,7 @@
 }
 
 .status-resent {
-    background-color: #ff6e79;
+    background-color: #1d4ed8;
     color: #fff;
 }
 
@@ -135,29 +135,29 @@
 
 .action-btn.view-btn:focus {
     background: #f6f7f7 !important;
-    border-color: #ff6e79 !important;
+    border-color: #1d4ed8 !important;
     color: #2c3338 !important;
-    box-shadow: 0 0 0 1px #ff6e79 !important;
+    box-shadow: 0 0 0 1px #1d4ed8 !important;
 }
 
 /* Resend button - primary style when enabled */
 .action-btn.resend-btn:not(:disabled) {
-    background: #ff6e79 !important;
-    border-color: #ff6e79 !important;
+    background: #1d4ed8 !important;
+    border-color: #1d4ed8 !important;
     color: #fff !important;
 }
 
 .action-btn.resend-btn:not(:disabled):hover {
-    background: #e55a66 !important;
-    border-color: #e55a66 !important;
+    background: #163fa0 !important;
+    border-color: #163fa0 !important;
     color: #fff !important;
 }
 
 .action-btn.resend-btn:not(:disabled):focus {
-    background: #ff6e79 !important;
-    border-color: #ff6e79 !important;
+    background: #1d4ed8 !important;
+    border-color: #1d4ed8 !important;
     color: #fff !important;
-    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #ff6e79 !important;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #1d4ed8 !important;
 }
 
 /* Disabled resend button */
@@ -213,14 +213,14 @@
 }
 
 .view-email-log {
-    background-color: #0073aa;
+    background-color: #1d4ed8;
     color: white;
-    border-color: #0073aa;
+    border-color: #1d4ed8;
 }
 
 .view-email-log:hover {
-    background-color: #005a87;
-    border-color: #005a87;
+    background-color: #153e9f;
+    border-color: #153e9f;
     color: white;
 }
 
@@ -456,9 +456,9 @@
 .resend-details .detail-row input:focus,
 .resend-details .detail-row textarea:focus,
 .resend-details .detail-row select:focus {
-    border-color: #0073aa;
+    border-color: #1d4ed8;
     outline: none;
-    box-shadow: 0 0 0 1px #0073aa;
+    box-shadow: 0 0 0 1px #1d4ed8;
 }
 
 .resend-details .detail-row ul {
@@ -508,9 +508,9 @@
 }
 
 .resend-form-group select:focus {
-    border-color: #ff6e79;
+    border-color: #1d4ed8;
     outline: none;
-    box-shadow: 0 0 0 1px #ff6e79;
+    box-shadow: 0 0 0 1px #1d4ed8;
 }
 
 .resend-email-info {
@@ -555,14 +555,14 @@
 }
 
 .resend-confirm-btn {
-    background-color: #ff6e79;
+    background-color: #1d4ed8;
     color: white;
-    border: 1px solid #ff6e79;
+    border: 1px solid #1d4ed8;
 }
 
 .resend-confirm-btn:hover {
-    background-color: #e55a66;
-    border-color: #e55a66;
+    background-color: #163fa0;
+    border-color: #163fa0;
     color: white;
 }
 
@@ -589,7 +589,7 @@
     width: 20px;
     height: 20px;
     border: 3px solid #f3f3f3;
-    border-top: 3px solid #ff6e79;
+    border-top: 3px solid #1d4ed8;
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
